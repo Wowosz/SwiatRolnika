@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {Link } from 'gatsby'
 
 import "./header.css"
 
@@ -31,10 +32,10 @@ const Header = () => {
         <div className="desktopNavBar container-fluid flex-row-reverse mx-0">
             <div className="col-lg-8 ">
                 <ul className="navBarList row  justify-content-center m-0 h-100">
-                    <a href="/"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>Start</h5></li></a>
-                    <a href="/o-nas"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>O nas</h5></li></a>
-                    <a href="/oferta"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>Oferta</h5></li></a>
-                    <a href="/kontakt"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>Kontakt</h5></li></a>
+                    <Link to="/"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>Start</h5></li></Link>
+                    <Link to="/o-nas"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>O nas</h5></li></Link>
+                    <Link to="/oferta"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>Oferta</h5></li></Link>
+                    <Link to="/kontakt"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>Kontakt</h5></li></Link>
                 </ul>
             </div>
         </div>

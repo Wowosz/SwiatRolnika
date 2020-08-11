@@ -1,16 +1,31 @@
     .mainImg{
-        position: absolute !important;
+        position: relative !important;
         top:0;
         z-index: -1;
+        border-bottom: solid 3px #fff;
     }
     .logoName{
         position: absolute;
         top: 30%;
         left:20%
     }
+    .brandSigns{
+        background: #f0f0f0 url('../images/message-shadow.png') top center repeat-x;
+        border-bottom: solid 3px #fff;
+    }
+    .brandRow {
+        height: 130px;
+    }
+    .shadowUnder {
+        background: url('../images/message-shadow.png') top center repeat-x;
+        height: 10px;
+    }
     @media only screen and (max-width: 767px) {
         .logoName{
             top: 20%;
             left:10%;
+        }
+        .brandRow {
+            height: 100px;
         }
     }
