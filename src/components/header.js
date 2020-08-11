@@ -1,42 +1,36 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React, {useState} from 'react'
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+import "./header.css"
+
+const Header = () => {
+    const [opened, setOpened] = useState(false);
+    const handleClick = () => {
+        if(opened){
+            setOpened(false);
+        } else {
+            setOpened(true);
+        }
+    }
+    
+    return(
+    <div>
+        <div className="mobileNavBar">
+            <div className={opened ? 'menu-btn open' : 'menu-btn'}  onClick={handleClick}>
+                <div className="menu-btn__burger"></div>
+            </div>
+        </div>
+
+        <div className="desktopNavBar container-fluid d-flex flex-row-reverse mx-0">
+            <div className="col-lg-8 ">
+                <ul className="navBarList row  align-content-center justify-content-center m-0 h-100">
+                    <li className="mx-lg-3 text-white"><h5>Start</h5></li>
+                    <li className="mx-lg-3 text-white"><h5>O nas</h5></li>
+                    <li className="mx-lg-3 text-white"><h5>Oferta</h5></li>
+                    <li className="mx-lg-3 text-white"><h5>Kontakt</h5></li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+    )
 }
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
 export default Header
