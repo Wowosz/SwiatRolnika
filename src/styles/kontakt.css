@@ -1,0 +1,22 @@
+.contactPlacetaker {
+    position: relative;
+    width: 100vw;
+    top: 0;
+    height: 30vh;
+    background: black;
+    border-bottom: solid white 3px;
+}
+
+.contactText {
+    font-size: 5em;
+}
+
+.shadowUnder {
+    background: url('../images/message-shadow.png') top center repeat-x;
+    height: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .contactText{
+        font-size: 4em;
+    }
+}
