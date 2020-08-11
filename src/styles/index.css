@@ -1,0 +1,16 @@
+    .mainImg{
+        position: absolute !important;
+        top:0;
+        z-index: -1;
+    }
+    .logoName{
+        position: absolute;
+        top: 30%;
+        left:20%
+    }
+    @media only screen and (max-width: 767px) {
+        .logoName{
+            top: 20%;
+            left:10%;
+        }
+    }

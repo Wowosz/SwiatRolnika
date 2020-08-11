@@ -13,20 +13,28 @@ const Header = () => {
     }
     
     return(
-    <div>
+    <div className="sticky">
         <div className="mobileNavBar">
             <div className={opened ? 'menu-btn open' : 'menu-btn'}  onClick={handleClick}>
                 <div className="menu-btn__burger"></div>
             </div>
+            <div className={`${opened ? 'mobileLinkListContainer open' : 'mobileLinkListContainer'} d-flex align-items-center justify-content-center`}>
+                <ul className="mobileLinkList p-0 text-center">
+                    <li className="my-4"><a href="/"><h1>Start</h1></a></li>
+                    <li className="my-4"><a href="o-nas"><h1>O Nas</h1></a></li>
+                    <li className="my-4"><a href="oferta"><h1>Oferta</h1></a></li>
+                    <li className="my-4"><a href="kontakt"><h1>Kontakt</h1></a></li>
+                </ul>
+            </div>
         </div>
 
-        <div className="desktopNavBar container-fluid d-flex flex-row-reverse mx-0">
+        <div className="desktopNavBar container-fluid flex-row-reverse mx-0">
             <div className="col-lg-8 ">
-                <ul className="navBarList row  align-content-center justify-content-center m-0 h-100">
-                    <li className="mx-lg-3 text-white"><h5>Start</h5></li>
-                    <li className="mx-lg-3 text-white"><h5>O nas</h5></li>
-                    <li className="mx-lg-3 text-white"><h5>Oferta</h5></li>
-                    <li className="mx-lg-3 text-white"><h5>Kontakt</h5></li>
+                <ul className="navBarList row  justify-content-center m-0 h-100">
+                    <a href="/"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>Start</h5></li></a>
+                    <a href="/o-nas"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>O nas</h5></li></a>
+                    <a href="/oferta"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>Oferta</h5></li></a>
+                    <a href="/kontakt"  className="px-lg-3 text-white d-flex align-items-center text-decoration-none"><li><h5>Kontakt</h5></li></a>
                 </ul>
             </div>
         </div>
