@@ -1,0 +1,9 @@
+.contentCutoutArea{
+    width: 100vw;
+    border-top: 3px solid white;
+    border-bottom: 2px solid white;
+    background: #f0f0f0 url(../images/message-shadow.png) top repeat-x;
+}
+.shadowCutout{
+    background: url(../images/message-shadow.png) top repeat-x;
+}

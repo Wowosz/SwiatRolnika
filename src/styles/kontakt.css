@@ -15,21 +15,38 @@
     background: url('../images/message-shadow.png') top center repeat-x;
     height: 10px;
 }
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.textColorRed {
+    color: rgb(199, 7, 27);
+}
+.pill {
+    border: solid black 2px;
+}
+.emailSended form{
+    display: none;
+}
+.emailNotSended{
+    display: none;
 }
 @media only screen and (max-width: 767px) {
     .contactText{
         font-size: 4em;
+    }
+}
+@media only screen and (min-width: 991px) {
+    .slash{
+        border-left: gray solid 2px;
     }
 }
