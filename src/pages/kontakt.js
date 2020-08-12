@@ -26,10 +26,11 @@ const Kontakt = () => {
                 <div className="slash pl-5">
                     <h1 className="mb-5 pt-0 textColorRed">Kontakt</h1>
                     <p className="mb-1">Handlowo Techniczne Usługi Rolnicze Sp.j. Harackiewicz,Sidor</p>
-                    <p className="mb-1">ul.Obwodowa 6 16-200 Dąbrowa Białostocka</p>
+                    <p className="mb-1">ul.Obwodowa 2 16-200 Dąbrowa Białostocka</p>
                     <p className="mb-1">Tel. (85) 71 22 195</p>
                     <p className="mb-1">Kom. 602 348 161</p>
                     <p className="mb-1">e-mail: htur_sj.dabrowa@wp.pl</p>
+                    <p className="mb-1">e-mail: annasidor50@gmail.com</p>
                     <p className="mb-1">Pn-pt: 7-17</p>
                     <p className="mb-1">Sob: 7-14</p>
                 </div>
