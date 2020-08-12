@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 const Onas = () => {
     return(
-    <Layout>
+    <Layout highlight={1}>
         ELO ELo
     </Layout>
     )

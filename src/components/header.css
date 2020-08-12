@@ -112,6 +112,9 @@
   .navBarList a:hover{
     background: rgb(199, 7, 27);
   }
+  .redBack {
+    background: rgb(199, 7, 27);
+  }
   @media only screen and (max-width: 767px) {
     .desktopNavBar {
         display: none !important;

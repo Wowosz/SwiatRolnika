@@ -10,11 +10,11 @@ import React from "react"
 import "./layout.css"
 import Header from "./header"
 
-const Layout = ({ children }) => {
-  
+const Layout = ({ children, highlight }) => {
+  console.log(highlight);
   return (
     <div>
-      <Header/>
+      <Header highlight={highlight}/>
       {children}
     </div>
   )

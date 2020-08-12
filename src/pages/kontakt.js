@@ -9,7 +9,7 @@ const Kontakt = () => {
     const [sended, setSended] = useState(false);
 
     return(
-    <Layout>
+    <Layout highlight={3}>
         <div>
             <div className="contactPlacetaker d-flex align-items-end p-4">
                 <h1 className="text-white contactText">Kontakt</h1>

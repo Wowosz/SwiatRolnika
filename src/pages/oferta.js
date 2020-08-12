@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 const Oferta = () => {
     return(
-    <Layout>
+    <Layout highlight={2}>
     </Layout>
     )
 }

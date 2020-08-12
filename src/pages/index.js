@@ -12,7 +12,7 @@ import '../styles/css/bootstrap.min.css';
 import '../styles/index.css'
 
 const IndexPage = () => (
-  <Layout>
+  <Layout highlight={0}>
     <div className="content">
       <div className="mainImg container-fluid px-0">
         <img src={image} className="img-fluid w-100"/>

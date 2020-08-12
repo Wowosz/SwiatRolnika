@@ -3,7 +3,7 @@ import {Link } from 'gatsby'
 
 import "./header.css"
 
-const Header = () => {
+const Header = ({highlight}) => {
     const [opened, setOpened] = useState(false);
     const handleClick = () => {
         if(opened){
@@ -32,10 +32,10 @@ const Header = () => {
         <div className="desktopNavBar container-fluid flex-row-reverse mx-0">
             <div className="col-lg-8 col-md-8">
                 <ul className="navBarList row  justify-content-center m-0 h-100">
-                    <Link to="/"  className="px-lg-3 px-md-2 text-white d-flex align-items-center text-decoration-none"><li><h5>Start</h5></li></Link>
-                    <Link to="/o-nas"  className="px-lg-3 px-md-2 text-white d-flex align-items-center text-decoration-none"><li><h5>O nas</h5></li></Link>
-                    <Link to="/oferta"  className="px-lg-3 px-md-2 text-white d-flex align-items-center text-decoration-none"><li><h5>Oferta</h5></li></Link>
-                    <Link to="/kontakt"  className="px-lg-3 px-md-2 text-white d-flex align-items-center text-decoration-none"><li><h5>Kontakt</h5></li></Link>
+                    <Link to="/"  className={`${highlight === 0 ? 'redBack' : ''} px-lg-3 px-md-2 text-white d-flex align-items-center text-decoration-none`}><li><h5>Start</h5></li></Link>
+                    <Link to="/o-nas"  className={`${highlight === 1 ? 'redBack' : ''} px-lg-3 px-md-2 text-white d-flex align-items-center text-decoration-none`}><li><h5>O nas</h5></li></Link>
+                    <Link to="/oferta"  className={`${highlight === 2 ? 'redBack' : ''} px-lg-3 px-md-2 text-white d-flex align-items-center text-decoration-none`}><li><h5>Oferta</h5></li></Link>
+                    <Link to="/kontakt"  className={`${highlight === 3 ? 'redBack' : ''} px-lg-3 px-md-2 text-white d-flex align-items-center text-decoration-none`}><li><h5>Kontakt</h5></li></Link>
                 </ul>
             </div>
         </div>
