@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import image from '../images/main-img.jpg'
 import john from '../images/john-deer.jpg'
 import zetor from '../images/zetor.jpg'
+import logo from '../images/logo.svg'
 import massey from '../images/massey-ferguson-logo.jpg'
 import landini from '../images/landini-logo-png-transparent.png'
 import '../styles/css/bootstrap.min.css';
@@ -16,7 +17,8 @@ const IndexPage = () => (
     <div className="content">
       <div className="mainImg container-fluid px-0">
         <img src={image} className="img-fluid w-100"/>
-        <h1 className="logoName">U Sidora</h1>
+        <img src={logo} className="logoName"/>
+        <h1 className="logoText">Wspólnie tworzymy wieś</h1>
       </div>
       <div className="brandContainer">
         <div className="brandSigns">

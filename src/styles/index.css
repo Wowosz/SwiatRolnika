@@ -6,8 +6,17 @@
     }
     .logoName{
         position: absolute;
-        top: 30%;
-        left:20%
+        top: 20%;
+        left:10%;
+        height: 200px;
+    }
+    .logoText {
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        color: white;
+        font-size: 3rem;
+        text-shadow: 0px 0px 17px rgba(00, 00, 00, 1);
     }
     .brandSigns{
         background: #f0f0f0 url('../images/message-shadow.png') top center repeat-x;
@@ -22,10 +31,15 @@
     }
     @media only screen and (max-width: 767px) {
         .logoName{
-            top: 20%;
-            left:10%;
+            top: 10%;
+            left:5%;
+            height: 80px;
         }
         .brandRow {
             height: 80px;
+        }
+        .logoText{
+            bottom: 2%;
+            font-size: 1.5rem;
         }
     }

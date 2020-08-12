@@ -49,7 +49,7 @@ const Kontakt = () => {
                                     required placeholder="twój.email@email.pl" />
                             </div>
                             <div className="row justify-content-center">
-                            <textarea className="rounded pill w-75 mt-4"id="message" name="message" rows="10"
+                            <textarea className="rounded pill w-75 mt-4 p-2"id="message" name="message" rows="10"
                                     placeholder="Powiedz nam czego potrzebujesz i zostaw jakiś kontakt!"></textarea>
                             <br/>
                             </div>
