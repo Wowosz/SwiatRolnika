@@ -1,0 +1,35 @@
+body {
+    overflow-x: hidden;
+}
+.onasImg{
+    position: relative !important;
+    top:0;
+    z-index: -1;
+}
+.onasLogoText {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
+    font-size: 5vw;
+    text-shadow: 0px 0px 17px rgba(00, 00, 00, 1);
+}
+.onasLogoName{
+    position: absolute;
+    top: 30%;
+    left:40%;
+    height: 18vw;
+}
+@media only screen and (max-width: 767px) {
+    .onasLogoName{
+        top: 27%;
+        left:40%;
+        height: 20vw;
+    }
+    .onasLogoText{
+        bottom: 1%;
+        right: 2%;
+        font-size: 1.8rem;
+        margin: 0;
+    }
+}
