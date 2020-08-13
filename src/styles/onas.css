@@ -20,6 +20,18 @@ body {
     left:40%;
     height: 18vw;
 }
+.teamDesc {
+    border-bottom: solid black 1px;
+    border-left: solid black 1px;
+}
+.aboutOffert {
+    border-bottom: solid black 1px;
+    border-right: solid black 1px; 
+}
+.familyDesc{
+    border-bottom: solid black 1px;
+    border-left: solid black 1px;
+}
 @media only screen and (max-width: 767px) {
     .onasLogoName{
         top: 27%;

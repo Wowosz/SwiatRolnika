@@ -5,7 +5,7 @@ import './cutoutArea.css'
 const CutoutArea = ({children}) => {
     return(
         <div className="cutoutArea">
-            <div className="contentCutoutArea">
+            <div className="contentCutoutArea row justify-content-center">
             {children}
             </div>
             <div className="shadowCutout"></div>
