@@ -6,6 +6,7 @@ import image from '../images/o-nas.jpg'
 import logo from '../images/logo.svg'
 import team from '../images/team.jpg'
 import czesci from '../images/czesci.jpeg'
+import family from '../images/family.jpg'
 import '../styles/onas.css'
 
 const Onas = () => {
@@ -39,7 +40,7 @@ const Onas = () => {
                 <br/>Zapraszamy do kontaktu i zakupów, mamy nadzieję że i Ty dołączysz do naszej rodziny!
                 <br/><br/>Czekamy na Ciebie, załoga sklepu!</p>
             </div>
-            <img src={team} className="col-lg-4"></img>
+            <img src={family} className="col-lg-4"></img>
           </div>
       </CutoutArea>
     </Layout>
