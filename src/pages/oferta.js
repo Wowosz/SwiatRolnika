@@ -45,7 +45,7 @@ const Oferta = () => {
         <p className="logoShadow">&nbsp;</p>
       </div>
       <CutoutArea>
-          <h1 className="mt-4 text-center">Posiadamy części do maszyn i ciągników podanych Firm:</h1>
+          <h3 className="mt-4 text-center col-10">Posiadamy części do maszyn i ciągników podanych Firm:</h3>
           <div className="row ofertaBrandRow p-3 d-flex justify-content-center">
             <img src={john} alt="john Deer logo" className="img-fluid h-100 mx-1"></img>
             <img src={zetor} alt="zetor logo" className="img-fluid h-100 mx-1"></img>
@@ -75,7 +75,11 @@ const Oferta = () => {
             <img src={pottinger} alt="landini logo" className="img-fluid h-100 mx-1"></img>
             <img src={fraugde} alt="landini logo" className="img-fluid h-100 mx-1"></img>
           </div>
-          <p></p>
+      </CutoutArea>
+      <CutoutArea>
+        <div className="row justify-content-center">
+          <h3 className="mt-4 text-center col-10">Także zajmujemy się sprzedarzą detaliczną maszyn, w naszej ofercie posiadamy:</h3>
+        </div>
       </CutoutArea>
     </Layout>
     )

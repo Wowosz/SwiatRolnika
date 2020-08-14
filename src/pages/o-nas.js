@@ -4,9 +4,9 @@ import Layout from '../components/layout'
 import CutoutArea from '../components/cutoutArea'
 import image from '../images/o-nas.jpg'
 import logo from '../images/logo.svg'
-import team from '../images/team.jpg'
+import team from '../images/team.jpeg'
 import czesci from '../images/czesci.jpeg'
-import family from '../images/family.jpg'
+import family from '../images/family.jpeg'
 import '../styles/onas.css'
 
 const Onas = () => {
@@ -36,7 +36,7 @@ const Onas = () => {
           </div>
           <div className="row mx-4 container mt-0 familyDesc pt-5 pb-3 mb-5">
             <div className="col-lg-8 d-flex align-content-center">
-                <p className="mb-1 pt-5">Mamy od 20 lat stałych klientów a nasi pracownicy są z nami również po 20 lat. Dzięki temu w naszej firmie wszyscy znamy się jak rodzina.
+                <p className="mb-1 pt-5">Mamy od 20 lat stałych klientów, a nasi pracownicy są z nami również po 20 lat. Dzięki temu w naszej firmie wszyscy znamy się jak rodzina.
                 <br/>Zapraszamy do kontaktu i zakupów, mamy nadzieję że i Ty dołączysz do naszej rodziny!
                 <br/><br/>Czekamy na Ciebie, załoga sklepu!</p>
             </div>
