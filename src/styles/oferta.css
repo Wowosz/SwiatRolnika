@@ -1,0 +1,32 @@
+.czesciIMG {
+    height: 40vw;
+}
+.czesciLogoText {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
+    font-size: 5vw;
+    text-shadow: 0px 0px 17px rgba(00, 00, 00, 1);
+}
+.czesciLogoName{
+    position: absolute;
+    top: 10%;
+    left:10%;
+    height: 20vw;
+    z-index: 100;
+}
+.logoShadow {
+    position: absolute;
+    top: -6%;
+    left:10%;
+    height: 30vw;
+    width: 40vw;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 10%, rgba(48,220,255,0) 83%, rgba(0,212,255,0) 100%);
+    opacity: 0.5;
+}
+.ofertaBrandRow img{
+    height: 60px !important;
+    padding: 3px;
+}

@@ -22,8 +22,8 @@
         background: #f0f0f0 url('../images/message-shadow.png') top center repeat-x;
         border-bottom: solid 3px #fff;
     }
-    .brandRow {
-        height: 130px;
+    .brandRow{
+        height: 100px;
     }
     .shadowUnder {
         background: url('../images/message-shadow.png') top center repeat-x;
