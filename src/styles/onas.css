@@ -23,14 +23,17 @@ body {
 .teamDesc {
     border-bottom: solid black 1px;
     border-left: solid black 1px;
+    align-items: flex-start !important;
 }
 .aboutOffert {
     border-bottom: solid black 1px;
     border-right: solid black 1px; 
+    align-items: flex-start !important;
 }
 .familyDesc{
     border-bottom: solid black 1px;
     border-left: solid black 1px;
+    align-items: flex-start !important;
 }
 @media only screen and (max-width: 767px) {
     .onasLogoName{
