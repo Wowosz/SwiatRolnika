@@ -6,9 +6,9 @@
     }
     .logoName{
         position: absolute;
-        top: 20%;
+        top: 10%;
         left:10%;
-        height: 200px;
+        height: 20vw;
     }
     .logoText {
         position: absolute;

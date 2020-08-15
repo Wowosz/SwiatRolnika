@@ -9,6 +9,7 @@ import React from "react"
 
 import "./layout.css"
 import Header from "./header"
+import Footer from "./footer"
 
 const Layout = ({ children, highlight }) => {
   console.log(highlight);
@@ -16,6 +17,7 @@ const Layout = ({ children, highlight }) => {
     <div>
       <Header highlight={highlight}/>
       {children}
+      <Footer/>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import image from '../images/main-img.jpg'
 import john from '../images/john-deer.jpg'
 import zetor from '../images/zetor.jpg'
-import logo from '../images/logo.svg'
+import logo from '../images/logo.png'
 import massey from '../images/massey-ferguson-logo.jpg'
 import landini from '../images/landini-logo-png-transparent.png'
 import '../styles/css/bootstrap.min.css';

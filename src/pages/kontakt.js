@@ -31,8 +31,8 @@ const Kontakt = () => {
                     <p className="mb-1">Kom. 602 348 161</p>
                     <p className="mb-1">e-mail: htur_sj.dabrowa@wp.pl</p>
                     <p className="mb-1">e-mail: annasidor50@gmail.com</p>
-                    <p className="mb-1">Pn-pt: 7-17</p>
-                    <p className="mb-1">Sob: 7-14</p>
+                    <p className="mb-1">Pn-Pt: 7.00-17.00</p>
+                    <p className="mb-1">Sob: 7.00-14.00</p>
                 </div>
             </div>
             <CutoutArea>

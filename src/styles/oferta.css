@@ -24,9 +24,27 @@
     width: 40vw;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 10%, rgba(48,220,255,0) 83%, rgba(0,212,255,0) 100%);
-    opacity: 0.5;
+    opacity: 0.0;
 }
 .ofertaBrandRow img{
     height: 60px !important;
     padding: 3px;
+}
+.rel {
+    position: relative;
+}
+.verticalLine {
+    position: absolute;
+    height: 100%;
+    top:0;
+    left:50%;
+    background: grey;
+    width: 1px;
+}
+.rel p{
+    border-bottom: solid 1px grey;
+}
+.itemki {
+    border: black 2px solid;
+    background: white;
 }
