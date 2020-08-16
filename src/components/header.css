@@ -49,11 +49,11 @@
   /* Link List*/
   .mobileLinkListContainer{
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     background: white;
     z-index: 1000;
     position: absolute;
-    top: 0;
+    top: -20vh;
     display: none;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
@@ -121,7 +121,7 @@
     }
     .sticky {
       position: sticky !important;
-      top:0 !important;
+      top: 0 !important;
       z-index: 3000;
     }
 }

@@ -46,7 +46,7 @@ const Oferta = () => {
       </div>
       <CutoutArea>
           <h3 className="mt-4 text-center col-10">Posiadamy części do maszyn i ciągników podanych Firm:</h3>
-          <div className="row ofertaBrandRow p-3 d-flex justify-content-center">
+          <div className="row ofertaBrandRow p-3 d-flex justify-content-center mx-0">
             <img src={john} alt="john Deer logo" className="img-fluid h-100 mx-1"></img>
             <img src={zetor} alt="zetor logo" className="img-fluid h-100 mx-1"></img>
             <img src={massey} alt="massey logo" className="img-fluid h-100 mx-1"></img>

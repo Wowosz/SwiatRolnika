@@ -46,6 +46,27 @@ const IndexPage = () => (
           </div>
         </div>
 
+        <div className="row container mt-5 justify-content-center">
+            <div className="col-lg-7 px-5 py-3 col-10 col-md-10 embed-responsive-item">
+                <div className="google-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d511.0937971074316!2d23.35372347301636!3d53.654486889074974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x278b0856041ee498!2sHandlowo-Techniczne%20Us%C5%82ugi%20Rolnicze!5e1!3m2!1spl!2spl!4v1597166969403!5m2!1spl!2spl" height="450" width="600" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <div className="col-lg-5 px-0 py-3 col-10 col-md-8 mb-5">
+                <div className="slash pl-5">
+                    <h1 className="mb-5 pt-0 textColorRed">Kontakt</h1>
+                    <p className="mb-1">Handlowo Techniczne Usługi Rolnicze Sp.j. Harackiewicz,Sidor</p>
+                    <p className="mb-1">ul.Obwodowa 6 16-200 Dąbrowa Białostocka</p>
+                    <p className="mb-1">Tel. (85) 71 22 195</p>
+                    <p className="mb-1">Kom. 602 348 161</p>
+                    <p className="mb-1">e-mail: htur_sj.dabrowa@wp.pl</p>
+                    <p className="mb-1">e-mail: annasidor50@gmail.com</p>
+                    <p className="mb-1">Pn-Pt: 7.00-17.00</p>
+                    <p className="mb-1">Sob: 7.00-14.00</p>
+                </div>
+                <a className="rounded-pill bg-dark text-white float-right mr-4 mt-3 p-2 text-decoration-none" href="/kontakt#wiadomosc">Wyślij Wiadomość</a>
+                </div>
+                </div>
       </CutoutArea>
     </div>
   </Layout>

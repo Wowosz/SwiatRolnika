@@ -17,7 +17,7 @@ const Onas = () => {
             <img src={logo} className="onasLogoName"/>
             <h1 className="onasLogoText">Kilka słów o nas.</h1>
       </div>
-      <CutoutArea>
+      <CutoutArea className="tekst">
           <div className="row mx-4 container mt-4 teamDesc pt-5 pb-3">
             <div className="col-lg-8 d-flex align-content-center">
                 <p className="mb-1 pt-4">Firma „Handlowo-Techniczne Usługi Rolnicze” to rodzinny biznes i doświadczony zespół wysoko wykwalifikowanych ludzi działający w branży rolniczej od 1991 roku.<br/>

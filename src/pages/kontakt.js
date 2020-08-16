@@ -36,7 +36,7 @@ const Kontakt = () => {
                 </div>
             </div>
             <CutoutArea>
-                <div className="row justify-content-center">
+                <div className="row justify-content-center "  id="wiadomosc">
                     <div className="text-center col-10 mt-3">
                         <h1>Masz problem lub pytanie ?</h1>
                         <h2>Napisz do nas!</h2>
