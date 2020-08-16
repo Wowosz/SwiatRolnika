@@ -47,4 +47,5 @@
 .itemki {
     border: black 2px solid;
     background: white;
+    border-radius: 3%;
 }

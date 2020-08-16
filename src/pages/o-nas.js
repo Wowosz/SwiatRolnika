@@ -20,27 +20,27 @@ const Onas = () => {
       <CutoutArea>
           <div className="row mx-4 container mt-4 teamDesc pt-5 pb-3">
             <div className="col-lg-8 d-flex align-content-center">
-                <p className="mb-1 pt-4">Firma „Handlowo Techniczne Usługi Rolnicze” to rodzinna firma i doświadczony zespół wysoko wykwalifikowanych ludzi działająca w branży rolniczej od 1991 roku.<br/>
-                <br/>Jesteśmy grupą ambitnych i kreatywnych ludzi. Dzięki temu, że nie popadamy w rutynę nasze usługi od wielu lat utrzymują się na najwyższym poziomie.</p>
+                <p className="mb-1 pt-4">Firma „Handlowo-Techniczne Usługi Rolnicze” to rodzinny biznes i doświadczony zespół wysoko wykwalifikowanych ludzi działający w branży rolniczej od 1991 roku.<br/>
+                <br/>Jesteśmy grupą ambitnych i kreatywnych ludzi. Dzięki systematycznej pracy nasze usługi od wielu lat utrzymują się na najwyższym poziomie.</p>
             </div>
-            <img src={team} className="col-lg-4"></img>
+            <img src={team} className="col-lg-4 rounded"></img>
           </div>
           <div className="row mx-4 container mt-0 aboutOffert pt-5 pb-5">
             <div className="col-lg-8 d-flex align-content-center">
                 <p className="mb-1 pt-4">U nas kupisz wszystko niezbędne dla każdego rolnika i majsterkowicza!<br/>
-                <br/>Świadczymy usługi dla szerokiej grupy odbiorców. Naszymi gośćmi są zarówno <br/>Klienci indywidualni, jak i duże przedsiębiorstwa.
-                U nas możesz liczyć na fachowe wsparcie i pomoc w zakupach. Błyskawicznie realizujemy wszystkie zamówienia.
-                <br/><br/>Zadowolenie naszych Klientów jest dla nas priorytetem, dlatego też dokładamy wszelkich starań aby oferowany przez nas towar był najwyższej jakości.</p>
+                <br/>Świadczymy usługi szerokiej grupie odbiorców. Naszymi gośćmi są zarówno
+                Klienci indywidualni, jak i duże przedsiębiorstwa. U nas możesz liczyć na fachowe wsparcie i pomoc w zakupach. Błyskawicznie realizujemy wszystkie zamówienia.
+                <br/><br/>Zadowolenie naszych Klientów jest dla nas priorytetem, dlatego też dokładamy wszelkich starań, aby nasz oferowany towar był najwyższej jakości.</p>
             </div>
-            <img src={czesci} className="col-lg-4"></img>
+            <img src={czesci} className="col-lg-4 rounded"></img>
           </div>
           <div className="row mx-4 container mt-0 familyDesc pt-5 pb-3 mb-5">
             <div className="col-lg-8 d-flex align-content-center">
-                <p className="mb-1 pt-5">Mamy od 20 lat stałych klientów, a nasi pracownicy są z nami również po 20 lat. Dzięki temu w naszej firmie wszyscy znamy się jak rodzina.
-                <br/>Zapraszamy do kontaktu i zakupów, mamy nadzieję że i Ty dołączysz do naszej rodziny!
-                <br/><br/>Czekamy na Ciebie, załoga sklepu!</p>
+                <p className="mb-1 pt-5">Mamy stałych klientów, jak również członków zespołu towarzyszących nam od 20 lat naszej pracy. Dzięki temu w naszej firmie jesteśmy niczym rodzina. 
+                <br/>Zapraszamy do kontaktu i zakupów. Mamy nadzieję, że Ty również dołączysz do naszej rodziny!
+                <br/><br/>Cała załoga czeka na Ciebie!</p>
             </div>
-            <img src={family} className="col-lg-4"></img>
+            <img src={family} className="col-lg-4 rounded"></img>
           </div>
       </CutoutArea>
     </Layout>
