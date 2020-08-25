@@ -25,7 +25,7 @@ const Kontakt = () => {
             <div className="col-lg-5 px-0 py-3 col-10 col-md-8">
                 <div className="slash pl-5">
                     <h1 className="mb-5 pt-0 textColorRed">Kontakt</h1>
-                    <p className="mb-1">Handlowo Techniczne Usługi Rolnicze Sp.j. Harackiewicz,Sidor</p>
+                    <p className="mb-1">Handlowo Techniczne Usługi Rolnicze Sidor i Wspólnik Sp.j.</p>
                     <p className="mb-1">ul.Obwodowa 6 16-200 Dąbrowa Białostocka</p>
                     <p className="mb-1">Tel. (85) 71 22 195</p>
                     <p className="mb-1">Kom. 602 348 161</p>
